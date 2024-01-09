@@ -1,1 +1,1 @@
-# CapstoneProjectCS3320
+# Capstone Library
