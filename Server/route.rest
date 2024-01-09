@@ -1,0 +1,36 @@
+GET http://localhost:8000/books
+
+###
+
+POST http://localhost:8000/books/
+ 
+###
+
+POST http://localhost:8000/books
+Content-Type: application/json
+
+{
+    "_id": 7,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "publisher": "Little, Brown and Company",
+    "isbn": "978-0-316-76958-7",
+    "avail": true,
+    "who": "",
+    "due": ""
+}
+
+###
+
+DELETE http://localhost:8000/books/7
+
+###
+
+PUT http://localhost:8000/books/7
+Content-Type: application/json
+
+{
+  "title": "New Title",
+  "author": "New Author",
+  "avail": false
+}
