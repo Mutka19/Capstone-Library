@@ -1,0 +1,35 @@
+.navbar * {
+    background-color: #FFFFFF;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+  
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.navbar li {
+    margin-right: 25px;
+}
+  
+.navbar li:last-child {
+    margin-right: 0;
+}
+  
+.navbar a {
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+}
+  
+.navbar a:hover {
+    color: crimson;
+}
+  

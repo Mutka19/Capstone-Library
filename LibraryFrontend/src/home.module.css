@@ -1,0 +1,12 @@
+.mainDiv {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+}
+  
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0px;
+}
+  
